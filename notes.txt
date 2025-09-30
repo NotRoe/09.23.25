@@ -1,0 +1,83 @@
+Readme instructions on how to use Git Bash to connect to GitHub, create repository and push files
+**************************************************************************
+To Open Git Bash 
+1. press 'windows key' or left click on windows icon
+2. in the search bar, search for Git Bash and run
+
+Linux Bash/Git Bash shell commands and navigating the file system
+Commands
+- pwd (print working directory): shows what directory or file folder we are currently working in. (point A)
+- ls: list all files and folders in current working directory.
+- cd [NAME] (change directory: moves down to directory [NAME] note: not spaces 'My Docs' becomes 'MyDocs'
+- cd .. (change directory: moves back up one directory.
+- clear: clears the terminal screen
+- mkdir [NAME] (make directory): creates directory called [NAME]
+- touch [NAME].txt (touch of god): creates .txt file called [NAME].txt
+- rm [NAME].txt (remove): remove or deletes [NAME].txt file
+
+
+First time GitHub config on Gitbash or terminal on computer
+
+1. git config --global user.name "your full Name" (configures user name)
+	-e.g. git config --global user.name "roe lyt"
+
+2. git config --global user.email "your.email@example.com" (configures user email)
+	-e.g. git config --global user.email "your.email@example.com"
+	-e.g. git config --global user.email "232271205+NotRoe@users.noreply.github.com"
+
+3. git config --global --list (prints or displays user configurations)
+
+
+Git walk-through including git init, git add, git push,  git commits etc .
+
+COMMANDS
+
+- git add [file.name]: queues file called 'file.name' to be committed/pushed to GitHub
+
+- git status: shows the status of all files within the master directory/file folder
+
+- git rm [file.name]: remove file called 'file.name' for the queue to be committed/pushed to GitHub
+
+
+HOW to link directory and push files to Github
+
+1. git init: sets master or links directory/folder to GitHub)
+*if correct should see '(master)' at the end of the directory*
+
+2. use git add [file.name] (to add files to queue); git rm [file.name] (to remove files from queue); git status (to show queued & non-queued files) 
+
+3. git commit -m "first commit" 
+*add "first commit" as description notes to each file*
+
+4. git branch -M main 
+*changes name of current branch from (master) to (main)*
+
+5. git remote add origin https://github.com/NotRoe/09.23.25.git
+*connects folder to depository on GitHub*
+
+6. git push -u origin main
+*push! after verification/authorization*
+
+Git walk-through including git init, git add, git push,  git commits etc .
+GitHub connection, repository creation and a walk-through of how to complete a git merge request.
+
+*********
+IMPORTANT
+default file path is:
+C:\Users\notro\OneDrive\Documents\TheoWAF\class7\AWS
+
+GitHub email :
+232271205+NotRoe@users.noreply.github.com
+
+create a new repository on the command line:
+echo "# 09.23.25" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/NotRoe/09.23.25.git
+git push -u origin main
+*********
+
+**************************************************************************
+END
